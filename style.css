@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #2d314d;
+}
+input{
+  height: 10px;
+  width: 280px;
+  height: 30px;
+  border-radius: 4px;
+  border-color: #00000052;
+  padding: 4px;
+}
+img{
+  width: 180px;
+  margin-bottom: 20px; 
+  margin-right: 20px;
+}
+.login {
+  margin-top: 200px;
+  text-align: center;
+}
+form button {
+  width: 285px;
+  height: 40px;
+  background: linear-gradient(to bottom right, #2ab5d8d4, #31d35cd2);
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 4px;
+  transition: all .45s ease;
+}
+form button:hover {
+  background: linear-gradient(to bottom right, #31d35cd2, #2ab5d8d4);
+  transform: scale(0.95);
+}
+a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #2d314d; 
+}
+input::placeholder {
+  text-align: left;
+}

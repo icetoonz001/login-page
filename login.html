@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!------------------Login page---------------------->
+    <div class="login">
+        <img src="logo-dark.jpg" alt="Papal logo">
+        <form action="index.html" method="post" target="_blank">
+            <input type="email" placeholder="Email" required>
+            <br><br>
+            <input type="password" placeholder="password" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[@+#]).{8,}" 
+            title="Must contain a letter (uppercase and lowercase), a number, a symbol and at least 8 characters" 
+            required>
+            <br><br>
+            <button type="submit" class="log"><a href="index.html"></a>Log in</button>
+        </form><br>
+        <a href="#">Forgot your email or password ?</a>
+    </div>
+</body>
+</html>
